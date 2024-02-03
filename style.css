@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Encode+Sans&family=Lobster&family=Quicksand:wght@600&display=swap');
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_1280.jpg");
+    background-size: cover;
+}
+
+.container {
+    text-align: left;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8e7b7b;
+}
+
+input {
+    width: calc(100% - 16px);
+    
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 95%;
+    
+}
+
+button:hover {
+    background-color: #9c0d5e;
+}
+
+.info{
+    margin: 5px;
+    display: none;
+    flex-direction: column;
+}
+.info-data{
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    background: transparent;
+}
+.info-data{
+    font-family: 'Quicksand', sans-serif; 
+}
+
